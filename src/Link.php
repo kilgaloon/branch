@@ -10,7 +10,7 @@ class Link
     /**
      * @var GuzzleHttp\Client
      */
-    private $protected;
+    protected $guzzle;
     /**
      * Create link object
      *
