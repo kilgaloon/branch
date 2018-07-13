@@ -1,0 +1,26 @@
+{
+    "name": "kilgaloon/branch",
+    "description": "Wrapper around Branch.io HTTP API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Strahinja Djuric",
+            "email": "radju22@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Branch\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    }
+}
