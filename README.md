@@ -6,4 +6,11 @@ Original documentation can be found [https://branchmetrics.github.io/docs/pages/
 I have nothing related to Branch services, i created this library because i used branch, i wrote this simple
 wrapper and i want to share it with community.
 
+Create manager:
+
+    $manager = new Manager([
+      'key' => 'key_test',
+      'secret' => 'key_secret'
+    ]);
+
 Cheers.
